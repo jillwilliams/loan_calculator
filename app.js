@@ -18,3 +18,7 @@ function getAmount() {
 }
 
 calculateBtnEl.addEventListener("click", getAmount)
+
+// Loan formula
+
+// Monthly amount = (P * r(1 + r)^n) / (((1 + r)^n) -1)
